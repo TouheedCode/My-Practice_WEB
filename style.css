@@ -1,0 +1,56 @@
+body{
+    background-color: lightblue;
+  
+}
+body::before {
+    content: "";
+    position: fixed; /* Fixed position to ensure it stays in place */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(./zoo.jpeg) no-repeat center center; /* Adjust path and positioning */
+    background-size: contain; /* Adjust size */
+    opacity: 0.1; /* Adjust transparency */
+    z-index: -1; /* Ensure it is behind other content */
+    pointer-events: none; /* Make it non-interactive */
+}
+
+#align{
+    text-align: center;
+    color: darkblue;
+    font-weight: lighter;
+}
+#color{
+    text-align: center;
+    color:palevioletred;
+    font-weight: bolder;
+}
+#underline{
+    text-decoration: underline;
+    text-align: center;
+}
+.picalign{
+    text-align: center;
+}
+#elephant{
+    font-size: 20px;
+    color: rgb(24, 24, 128);
+    font-weight: normal;
+}
+#wolf{
+    font-size: 20px;
+    color: rgb(24, 24, 128);
+    font-weight: normal;
+}
+#elephantimage{
+    width: 300px;
+    height: 200px;
+    opacity: 0.8;
+}
+#wolfimage{
+    width: 300px;
+    height: 200px;
+    opacity: 0.8;
+    
+}
